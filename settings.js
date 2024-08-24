@@ -69,7 +69,7 @@ global.owner = ["6289529331530", "6289529331530"] //ganti agar fitur owner bisa 
 global.ownernomer = owner[0] + "@s.whatsapp.net"
 global.ownernomerr = "+"+ownernomer //tidak perlu di edit
 global.thumbnail = "./image/ix9dynamic.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
-global.donasi = "./image/donasi.jpg" // foto donasi di folder image
+global.donasi = "-" // foto donasi di folder image
 global.tag_owner = "./tag_owner.mp3" // audio ini akan di kirim apabila ada member yang menandai (tag) owner bot 
 global.background_welcome = "https://telegra.ph/file/edca4b513ddf29fd52c0e.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.thumbGif = '-'
@@ -134,7 +134,7 @@ global.buttonDefault2 = [{
    }
 }, {
    quickReplyButton: {
-      displayText: '🎁 Donasi 🎁',
+      displayText: 'donasi tidak tersedia',
       id: '.donasi'
    }
 }]
@@ -148,7 +148,7 @@ global.buttonDefault3 = [{
    {
       buttonId: `.donasi`,
       buttonText: {
-         displayText: 'Donation 💰'
+         displayText: 'donasi tidak tersedia'
       },
       type: 1
    }
