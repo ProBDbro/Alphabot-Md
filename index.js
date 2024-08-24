@@ -7955,7 +7955,7 @@ break
 
             if (m.isGroup && mentionUser.includes(ownernomer)) {
               //console.log(m.mentionedJid[0])
-              alpha.sendMessage(m.chat, {audio: fs.readFileSync(tag_owner), mimetype: "audio/mpeg", ptt: true}, {quoted: m})
+              alpha.sendMessage(m.chat, {audio: fs.readFileSync(tag_owner), mimetype: "audio/mp3", ptt: true}, {quoted: m})
             }
             if (budy.startsWith('> ')) {
                if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
