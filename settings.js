@@ -55,7 +55,7 @@ global.language = indonesia //change indonesia to english if you don't understan
 // Other
 // Other
 global.botname = "ANAK DINAMIK 🔥 (BOT)" //namabot kalian
-global.ownername = "ᴹᴿ᭄ Anak Dinamik🔥 ×፝֟͜×" //nama kalian
+global.ownername = "Anak Dinamik🔥 ×፝֟͜×" //nama kalian
 global.myweb = "https://s.id/ix9dynamic" //bebas asal jan hapus
 global.instagram = "https://www.instagram.com/_.9dynamic?igsh=d3Q5YXAyaHh6YXd2" //bebas asal jan hapus
 global.myweb2 = "https://s.id/ix9dynamic" //bebas
